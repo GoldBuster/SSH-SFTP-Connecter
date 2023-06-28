@@ -30,9 +30,9 @@ public class SignInGUI {
         JTextField nameIn = new JTextField(10);
         JTextField passwordIn = new JTextField(10);
         JTextField hostIn = new JTextField(10);//相应输入框
-        nameIn.setOpaque(false);
-        passwordIn.setOpaque(false);
-        hostIn.setOpaque(false);//文本框变透明
+        nameIn.setOpaque(true);
+        passwordIn.setOpaque(true);
+        hostIn.setOpaque(true);//文本框变透明
 
 
 
