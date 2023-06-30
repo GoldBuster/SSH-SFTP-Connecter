@@ -78,7 +78,7 @@ public class SignInGUI {
 
         panel.setSize(ima.getIconWidth(),ima.getIconHeight());//大小
 
-        panel.setResizable(false);//窗口大小不可调整
+        panel.setResizable(true);//窗口大小可调整
         panel.setVisible(true);//显示窗口
 
 
@@ -183,7 +183,7 @@ public class SignInGUI {
 
         modePanel.setSize(ima.getIconWidth(),ima.getIconHeight());//大小
 
-        modePanel.setResizable(false);//窗口大小不可调整
+        modePanel.setResizable(true);//窗口大小可调整
         modePanel.setVisible(true);//显示窗口
 
         modePanel.add(terminal);
